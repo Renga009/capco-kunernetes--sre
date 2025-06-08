@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: pod
+metadata:
+  name: 
+spec:
+  containers:
+    - name: capco-containerPort
+      image: rengaraj12345/sre-test-image:1.0
+      ports:
+        - containerPort: 3015
