@@ -4,7 +4,7 @@ metadata:
   name: cart-app-pod
 spec:
   containers:
-    - name: capco-containerPort
+    - name: capco-container
       image: rengaraj12345/sre-test-image:1.0
       ports:
         - containerPort: 3015
